@@ -1,0 +1,124 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+body{
+    height: 100vh;
+    background: white ;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family:"Poppins";
+    margin: 0;
+    
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+section, header {
+    width:70%;
+    margin: 0 auto;
+
+
+}
+.overlay{
+    display: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    padding: 2em;
+
+}
+
+a.logo{
+    font-weight: bold;
+}
+
+
+nav ul { display: flex;}
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.container .productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:2rem;
+   
+   
+}
+
+
+.container .productos .Item{
+
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(124, 124, 124, 0.1);
+   
+}
+
+
+.nosotros:hover{
+    box-shadow: 10px 5px 5px #FFBD00;
+    transform: translateY(-0.25em);
+    }
+
+.contactanos:hover{
+    box-shadow: 10px 5px 5px #FF5400;
+    transform: translateY(-0.25em);
+    }
+
+.botoncarrito:hover{
+    box-shadow: 10px 5px 5px #FF0054;
+    transform: translateY(-0.25em);
+    }
+    
+   
+.boton_add:hover{
+  box-shadow: 10px 5px 5px #9E0059;
+  transform: translateY(-0.25em);
+  
+}
+.boton_pago:hover{
+
+    box-shadow: 10px 5px 5px #390099;
+    transform: translateY(-0.25em);
+    
+}
+   
+  
+
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+  
